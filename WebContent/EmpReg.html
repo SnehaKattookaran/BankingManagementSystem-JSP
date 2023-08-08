@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>employee_registration</title>
+</head>
+<body>
+<h1>Employee Registration</h1>
+<form action="EmpReg.jsp" method="post">
+<table>
+<tr><td>Employee Name:</td><td><input type="text" name="emp_name"/></td></tr>
+<tr><td>Employee Place:</td><td><input type="text" name="emp_place"/></td></tr>
+<tr><td>Employee Designation:</td><td>
+<select name="emp_designation" style="width:155px">
+<option>Clerk</option>
+<option>Officer</option>
+<option>Manager</option>
+<option>Sr.Manager</option>
+</select>
+</td></tr>
+<tr><td>Employee Age:</td><td><input type="text" name="emp_age"/></td></tr>
+<tr><td>Employee Qualification:</td><td><input type="text" name="emp_qualification"/></td></tr>
+</table>
+<p>
+<input type="submit" value="Register"/>
+<input type="reset" value="Reset"/>
+<input type="button" value="Back" onclick="history.back();">
+</p>
+</form>
+</body>
+</html>
