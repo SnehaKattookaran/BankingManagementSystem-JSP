@@ -10,8 +10,7 @@ This web-based application allows the management of bank accounts and the execut
 
 ***Tools and Technologies used:***
 * **Java SE - 17, HTML5, CSS3**
-* **Eclipse 4.26 (2022-12)IDE, Spring Tool Suite 4**
-* **Frameworks: Spring MVC, Spring Boot, Hibernate** 
+* **Eclipse 4.26 (2022-12)IDE**
+* **Core Java + JSP** 
 * **MySQL Database**
-* **Maven project management tool**
 * **Apache Tomcat server**
